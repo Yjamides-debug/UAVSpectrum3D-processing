@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software release and the UAVSpectrum3D dataset."
+type: software
+title: "UAVSpectrum3D processing pipeline"
+abstract: "Reproducible processing, validation, and reference-reuse code for the UAVSpectrum3D dataset."
+authors:
+  - family-names: "Yu"
+    given-names: "Qianqian"
+    affiliation: "School of Information and Communication Engineering, University of Electronic Science and Technology of China, China"
+version: "0.4.0"
+license: MIT
+keywords:
+  - "UAV spectrum measurement"
+  - "radio environment map"
+  - "spectrum cartography"
+  - "reproducible data processing"

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and editors
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Local inputs and generated outputs
+data/
+work/
+build/
+output/
+*.log
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uavspectrum3d-processing"
+version = "0.4.0"
+description = "Processing and validation pipeline for the UAVSpectrum3D dataset"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Qianqian Yu"},
+]
+dependencies = [
+  "numpy==2.1.3",
+  "scipy==1.15.3",
+  "matplotlib==3.11.0",
+  "pandas==2.2.3",
+]
+
+[tool.setuptools]
+packages = ["uavspectrum3d_pipeline"]
